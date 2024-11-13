@@ -1,16 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Transition AI Coach - Skills Mapping</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Skills Mapping</a>
+        <a href="resume.html">Resume Suggestions</a>
+    </nav>
 
-<!-- ...existing code... -->
-<!-- Skills Mapping Section -->
-<input type="text" id="currentRole" placeholder="Current Role">
-<input type="text" id="targetIndustry" placeholder="Target Industry">
-<textarea id="skills" placeholder="Your Skills"></textarea>
-<button onclick="getSkillsMapping()">Get Skills Mapping</button>
-<div id="mappingResults"></div>
+    <h1>Skills Mapping Analysis</h1>
+    
+    <!-- Current Position -->
+    <section class="current-position">
+        <h2>Current Position</h2>
+        <input type="text" id="currentRole" placeholder="Current Role">
+        <textarea id="resumeText" placeholder="Paste your resume here"></textarea>
+        <button onclick="analyzeResume()">Extract Skills from Resume</button>
+        <div class="skills-container">
+            <h3>Extracted Skills</h3>
+            <div id="extractedSkills" class="skills-list"></div>
+        </div>
+    </section>
 
-<!-- Resume Suggestions Section -->
-<textarea id="resumeText" placeholder="Paste your resume here"></textarea>
-<input type="text" id="targetRole" placeholder="Target Role">
-<button onclick="getResumeSuggestions()">Get Resume Suggestions</button>
-<div id="suggestions"></div>
+    <!-- Target Position -->
+    <section class="target-position">
+        <h2>Target Position</h2>
+        <input type="text" id="targetIndustry" placeholder="Target Industry">
+        <input type="text" id="targetRole" placeholder="Target Role">
+        <textarea id="targetSkills" placeholder="Required skills for target role (one per line)"></textarea>
+    </section>
 
-<!-- Interview Preparation Section -->
+    <button onclick="mapSkills()">Map Skills</button>
+
+    <!-- Results Section -->
+    <section class="results">
+        <h3>Skills Analysis</h3>
+        <div class="skills-mapping">
+            <div id="matchingSkills">
+                <h4>Matching Skills</h4>
+            </div>
+            <div id="skillsToAcquire">
+                <h4>Skills to Acquire</h4>
+            </div>
+            <div id="transferableSkills">
+                <h4>Transferable Skills</h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

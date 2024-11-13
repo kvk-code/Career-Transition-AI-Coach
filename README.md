@@ -13,64 +13,60 @@ The "Career Transition AI Coach" acts as a digital career counselor, designed to
 
 To build a Minimum Viable Product (MVP) for the "Career Transition AI Coach," we focused on essential features that validate the core functionality without overextending development resources.
 
+## Implementation
+
+The application consists of two main pages:
+
+### 1. Skills Analysis Page (index.html)
+The main page focuses on skills extraction and mapping:
+- Resume upload and analysis
+- Automatic skills extraction
+- Target role/industry selection
+- Skills gap visualization with:
+  - Matching skills
+  - Skills to acquire
+  - Transferable skills
+
+### 2. Resume Enhancement Page (resume.html)
+Dedicated page for resume optimization:
+- Resume content analysis
+- Target role-specific suggestions
+- Improvement recommendations
+
 ## Features
 
-### User Profile & Skills Input
+### Automated Skills Extraction
 
-**Feature:** Users enter their current role, skills, and target industry.
+**Feature:** AI-powered resume analysis that automatically extracts skills.
 
-// LL can process textual input from users.
+**Purpose:** Streamline the skills identification process.
 
-**Purpose:** Provides a foundation for personalization.
+**Scope:** 
+- Resume text analysis
+- Skills extraction and categorization
+- Interactive skills display
 
-**Scope:** Simple form-based interface where users can input job titles, key skills, and select target industries from a dropdown menu.
+### Skills Mapping Analysis
 
-### Skills Mapping and Transfer Suggestions
+**Feature:** Three-part analysis showing skills alignment:
+1. Matching skills from current profile
+2. Required skills to acquire
+3. Transferable skills identification
 
-**Feature:** Display a list of skills from the user's current industry, highlighting transferable skills and suggesting areas for development.
+**Purpose:** Clear visualization of career transition path.
 
-// LL can generate skill mappings and suggest transferable skills.
+**Scope:** 
+- Skills comparison algorithm
+- Gap analysis
+- Visual skills mapping interface
 
-**Purpose:** Showcases the AI's ability to bridge industries.
+### Resume Enhancement
 
-**Scope:** Pre-built logic to map common skills between industries with hardcoded examples for popular transitions (e.g., teaching to project management).
+**Feature:** Dedicated resume analysis tool.
 
-### Sample Learning Path Recommendations
+**Purpose:** Optimize resume for target role.
 
-**Feature:** Suggest learning resources like courses, certifications, or relevant books based on the target industry.
-
-// LL can recommend personalized learning resources.
-
-**Purpose:** Provides actionable, relevant guidance.
-
-**Scope:** Populate with popular online learning resources; static for the prototype (e.g., links to courses on Coursera or LinkedIn Learning).
-
-### Resume Tailoring Suggestions
-
-**Feature:** Users submit a sample resume, and the tool highlights key areas to rephrase or refocus based on the target role.
-
-// LL can analyze resumes and provide tailoring suggestions.
-
-**Purpose:** Helps users reframe their experience.
-
-**Scope:** Basic text analysis that offers tips for rewriting specific sections.
-
-### Basic Interview Preparation
-
-**Feature:** Provides common interview questions for the target industry and brief coaching tips.
-
-// LL can generate interview questions and coaching tips.
-
-**Purpose:** Adapts to industry-specific nuances.
-
-**Scope:** Uses mock data to simulate responses for industry-specific questions.
-
-### Networking Tips
-
-**Feature:** Offers simple networking tips or connections to relevant online communities.
-
-// LL can offer personalized networking advice.
-
-**Purpose:** Guides users in building industry connections.
-
-**Scope:** Static recommendations to join specific LinkedIn groups or industry forums.
+**Scope:** 
+- Content analysis
+- Role-specific suggestions
+- Keyword optimization
