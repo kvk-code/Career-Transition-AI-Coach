@@ -7,15 +7,18 @@ From the growing need for career adaptability in a fast-changing job market. As 
 
 ## What It Does
 
-The "Career Transition AI Coach" acts as a digital career counselor, designed to help users smoothly transition from one industry or role to another by providing personalized guidance, resources, and actionable steps.
+The "Career Transition AI Coach" MVP focuses on essential features for career transition guidance:
+- Skills analysis and mapping for career transitions
+- Resume optimization for target roles
+- Personalized guidance and actionable steps
 
 ## How We Built It
 
-To build a Minimum Viable Product (MVP) for the "Career Transition AI Coach," we focused on essential features that validate the core functionality without overextending development resources.
+The MVP development focuses on core functionalities that provide immediate value while maintaining scalability for future enhancements. The application is being built with a user-centric approach, prioritizing features that directly impact the career transition process.
 
 ## Implementation
 
-The application consists of two main pages:
+The application is currently under development and consists of two main pages:
 
 ### 1. Skills Analysis Page (index.html)
 The main page focuses on skills extraction and mapping:
@@ -27,11 +30,15 @@ The main page focuses on skills extraction and mapping:
   - Skills to acquire
   - Transferable skills
 
+> **Note:** The skills gap visualization feature is currently being implemented.
+
 ### 2. Resume Enhancement Page (resume.html)
 Dedicated page for resume optimization:
 - Resume content analysis
 - Target role-specific suggestions
 - Improvement recommendations
+
+> **Note:** Resume enhancement suggestions are under development.
 
 ## Features
 
@@ -46,21 +53,21 @@ Dedicated page for resume optimization:
 - Skills extraction and categorization
 - Interactive skills display
 
-### Skills Mapping Analysis
+### Skills Gap Analysis (In Development)
 
 **Feature:** Three-part analysis showing skills alignment:
 1. Matching skills from current profile
 2. Required skills to acquire
 3. Transferable skills identification
 
-**Purpose:** Clear visualization of career transition path.
+**Purpose:** Help users understand which skills they need to acquire for their desired role.
 
 **Scope:** 
-- Skills comparison algorithm
-- Gap analysis
-- Visual skills mapping interface
+- Compare extracted skills with target role skills
+- Visualize missing skills
+- Provide insights on transferable skills
 
-### Resume Enhancement
+### Resume Enhancement (Upcoming)
 
 **Feature:** Dedicated resume analysis tool.
 
@@ -70,3 +77,21 @@ Dedicated page for resume optimization:
 - Content analysis
 - Role-specific suggestions
 - Keyword optimization
+
+## Development Timeline
+
+### Current Sprint (Weeks 1-2)
+- Implementing skill gap identification features
+- Developing core skills analysis algorithms
+- Setting up basic user interface
+
+### Next Steps (Weeks 3-4)
+- Developing resume enhancement suggestions
+- Implementing feedback mechanisms
+- Integrating AI-powered analysis
+
+### Final Phase (Weeks 5-8)
+- Feature integration
+- User experience enhancements
+- Testing and debugging
+- Documentation and deployment preparation
